@@ -4,7 +4,7 @@ set -e
 set -x
 
 INFILE="iottlyagent_1.6.4_linux_raspberry-pi.bsx"
-OUTFILE="iottlyagent_1.6.4_linux_raspberry-pi.tar.xz"
+OUTFILE="iottlyagent_1.6.4_linux_raspberry-pi.tar.gz"
 TMPDIR="./tmp-archive"
 
 [ ! -e $INFILE ] && wget https://cloud.iottly.com/getagent/$INFILE
